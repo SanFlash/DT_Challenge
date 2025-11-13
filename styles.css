@@ -1,6 +1,4 @@
-/* ========================================
-   GLOBAL STYLES & VARIABLES
-   ======================================== */
+
 
 :root {
     --primary-color: #6366f1;
@@ -34,9 +32,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ========================================
-   NAVIGATION BAR
-   ======================================== */
 
 .navbar {
     position: fixed;
@@ -119,9 +114,6 @@ body {
     transition: var(--transition);
 }
 
-/* ========================================
-   HOME SECTION
-   ======================================== */
 
 .home-section {
     padding-top: 120px;
@@ -230,7 +222,6 @@ body {
     color: white;
     font-weight: bold;
     box-shadow: 0 0 60px rgba(99, 102, 241, 0.4);
-    animation: float 3s ease-in-out infinite;
 }
 
 .floating-card {
@@ -243,7 +234,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-    animation: float 3s ease-in-out infinite;
 }
 
 .floating-card i {
@@ -283,9 +273,6 @@ body {
     }
 }
 
-/* ========================================
-   ABOUT SECTION
-   ======================================== */
 
 .about-section {
     padding: 100px 2rem;
@@ -362,62 +349,7 @@ body {
 
 /* Qualities Section */
 
-.qualities-section {
-    margin-bottom: 4rem;
-}
 
-.qualities-section h3 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: var(--text-dark);
-}
-
-.qualities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-}
-
-.quality-card {
-    background: #f8fafc;
-    padding: 2rem;
-    border-radius: 15px;
-    text-align: center;
-    transition: var(--transition);
-    border: 1px solid var(--border-color);
-}
-
-.quality-card:hover {
-    transform: translateY(-10px);
-    box-shadow: var(--shadow-lg);
-    background: white;
-    border-color: var(--primary-color);
-}
-
-.quality-icon {
-    width: 70px;
-    height: 70px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1rem;
-    font-size: 2rem;
-    color: white;
-}
-
-.quality-card h4 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    color: var(--text-dark);
-}
-
-.quality-card p {
-    color: var(--text-light);
-    line-height: 1.7;
-}
 
 /* Mindset Section */
 
@@ -539,66 +471,9 @@ body {
     font-size: 0.95rem;
 }
 
-/* Training Section */
 
-.training-section {
-    margin-bottom: 4rem;
-}
 
-.training-section h3 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: var(--text-dark);
-}
 
-.training-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.training-item {
-    background: linear-gradient(135deg, #f8fafc, #f1f5f9);
-    padding: 2rem;
-    border-radius: 15px;
-    text-align: center;
-    border: 1px solid var(--border-color);
-    transition: var(--transition);
-}
-
-.training-item:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-lg);
-}
-
-.training-icon {
-    width: 70px;
-    height: 70px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1rem;
-    font-size: 2rem;
-    color: white;
-}
-
-.training-item h4 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    color: var(--text-dark);
-}
-
-.training-item p {
-    color: var(--text-light);
-    line-height: 1.7;
-}
-
-/* ========================================
-   CONTACT SECTION
-   ======================================== */
 
 .contact-section {
     padding: 100px 2rem;
@@ -700,7 +575,6 @@ body {
     transform: translateY(-5px);
 }
 
-/* Contact Form */
 
 .contact-form {
     background: white;
@@ -765,9 +639,6 @@ body {
     display: block;
 }
 
-/* ========================================
-   FOOTER
-   ======================================== */
 
 .footer {
     background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -822,9 +693,6 @@ body {
     color: rgba(255, 255, 255, 0.7);
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-   ======================================== */
 
 @media (max-width: 1024px) {
     .home-container {
@@ -1080,9 +948,6 @@ body {
     }
 }
 
-/* ========================================
-   ANIMATIONS & EFFECTS
-   ======================================== */
 
 @keyframes float {
     0%, 100% {
@@ -1093,7 +958,6 @@ body {
     }
 }
 
-/* Smooth scroll behavior for all sections */
 section {
     scroll-margin-top: 80px;
 }
