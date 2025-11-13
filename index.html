@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepTech - Innovation Through Research</title>
+    <title>DeepTech Challenge</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Nav Bar -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">DeepTech</div>
@@ -24,7 +24,7 @@
         </div>
     </nav>
 
-    <!-- Home -->
+    <!-- Home Section -->
     <section id="home" class="home-section">
         <div class="home-container">
             <div class="home-content">
@@ -56,12 +56,12 @@
         </div>
     </section>
 
-    <!-- About -->
+    <!-- About Section -->
     <section id="about" class="about-section">
         <div class="about-container">
             <h2 class="section-title">About DeepTech</h2>
             
-            <!-- DeepTech -->
+            <!-- What is DeepTech -->
             <div class="about-content">
                 <div class="about-text">
                     <h3>What is DeepTech?</h3>
@@ -177,7 +177,7 @@
                     </div>
                 </div>
             </div>
-            
+
     <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="contact-container">
@@ -218,16 +218,78 @@
                             <a href="#" class="social-icon" aria-label="Facebook">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                
+                            <a href="#" class="social-icon" aria-label="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Message subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DeepTech</h4>
+                    <p>Building the future of EdTech through research-driven innovation and psychological insights.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Tech Stack</h4>
+                    <ul>
+                        <li>MongoDB & Node.js</li>
+                        <li>React Native</li>
+                        <li>Express & Nginx</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
                 <p>&copy; 2025 DeepTech. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="hh.js"></script>
 </body>
 </html>
-
-
-
-
-
